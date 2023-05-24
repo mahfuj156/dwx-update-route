@@ -1,0 +1,113 @@
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+.navbar-custom-top {
+  background-color: #006e98 !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  padding-bottom: 8px;
+}
+.navbar-custom-top img {
+  width: 100px;
+}
+.navbar-custom.admin {
+  margin-bottom: 20px !important;
+}
+
+.navbar-custom {
+  background: #22b24c;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+
+.navbar-header {
+  float: left;
+}
+.navbar-collapse.collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+.navbar-brand {
+  float: left;
+  padding: 17px 1px 5px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.navbar-right {
+  float: right !important;
+  margin-right: -15px;
+}
+
+.navbar-custom-top .navbar-right a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px;
+}
+
+.navbar-custom-top .navbar-right li {
+  float: left;
+}
+a {
+  text-decoration: none;
+}
+#main-menu {
+  text-align: center;
+}
+#main-menu > ul > li {
+  float: left;
+  border-right: 1px solid #006e98;
+}
+#main-menu > ul > li > a i {
+  display: block;
+}
+#main-menu > ul {
+  display: inline-block;
+}
+#main-menu ul ul {
+  display: none;
+}
+#main-menu > ul > li > a {
+  display: block;
+  padding: 14px;
+  color: #fff;
+  font-size: 14px;
+}
+
+#main-menu ul > li.open ul {
+  display: block;
+  position: absolute;
+  text-align: left;
+  background: #00a12f;
+  padding: 0px;
+}
+
+#main-menu ul > li.open ul li a {
+  display: block;
+  padding: 6px 10px;
+  color: #fff;
+  border-bottom: 1px solid #efefef;
+}
+
+#main-menu ul li:hover ul {
+  display: block !important;
+  position: absolute;
+  background: #00b134;
+}
+#main-menu ul li:hover ul li {
+  text-align: left !important;
+  padding: 0;
+}
+#main-menu ul li:hover ul li a {
+  color: #fff;
+  padding: 6px 12px;
+  border-bottom: 1px solid #88e19b;
+  display: block;
+  font-size: 14px;
+}
